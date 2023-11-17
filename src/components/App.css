@@ -1,0 +1,40 @@
+.file-explorer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .directory-tree {
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .directory-tree ul {
+    list-style-type: none;
+  }
+  
+  .directory-tree li {
+    margin-left: 10px;
+  }
+  
+  .directory-tree span {
+    cursor: pointer;
+  }
+  
+  .file-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .file-actions {
+    margin-bottom: 20px;
+  }
+  
+  .file-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
